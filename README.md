@@ -1,0 +1,2 @@
+# SwaggerhubAutomation
+Maven plugin combo
