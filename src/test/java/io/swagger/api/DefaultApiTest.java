@@ -64,7 +64,7 @@ public class DefaultApiTest {
         List providers = new ArrayList();
         providers.add(provider);
         
-        api = JAXRSClientFactory.create("https://localhost", DefaultApi.class, providers);
+        api = JAXRSClientFactory.create("https://virtserver.swaggerhub.com/SE-Design/HR_Temil24/1.0.0", DefaultApi.class, providers);
         org.apache.cxf.jaxrs.client.Client client = WebClient.client(api);
         
         ClientConfiguration config = WebClient.getConfig(client); 
